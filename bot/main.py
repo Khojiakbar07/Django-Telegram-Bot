@@ -1,12 +1,10 @@
 import logging
 from aiogram import Bot, Dispatcher, executor, types
-from buttons import button
 from api import create_user, create_feedback
-from states import FeedbackState
 from aiogram.dispatcher.filters import Text
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext
-
+from states import FeedbackState
 
 API_TOKEN = '6734016800:AAGFEnYOlvVr0rMTEPYBQLMVTb9V6f1BGoQ'
 

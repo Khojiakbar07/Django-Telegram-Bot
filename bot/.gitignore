@@ -1,0 +1,7 @@
+/venv
+/templates
+/media
+*.pyc
+*.cpy
+.idea
+.venv
