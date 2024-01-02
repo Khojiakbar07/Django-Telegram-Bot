@@ -9,4 +9,4 @@ class BotUsersApiView(ListCreateAPIView):
 
 class FeedbacksApiView(ListCreateAPIView):
     queryset = Feedback.objects.all()
-    serializer_class  = FeedbackSerializer
+    serializer_class = FeedbackSerializer
